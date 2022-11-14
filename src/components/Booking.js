@@ -12,8 +12,8 @@ function Booking() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const userData = {
-      specialist: specialist,
-      patient_name: patient_name
+      patient_name: patient_name,
+      specialist: specialist
     };
     const configurationObj = {
       method: "POST",
@@ -23,6 +23,8 @@ function Booking() {
       body: JSON.stringify(userData),
     };
     fetch("http://localhost:9297/appointments", configurationObj)
+    .then(res => res.json())
+    .then(data => console.log(data))
 
   }
   
@@ -47,7 +49,10 @@ function Booking() {
           </div>
 
           <div className="col-12 d-flex justify-content-center">
-             <button type="submit"  className="btn btn-success mt-4"><a class="nav-link active" href="./Appointment">  Book </a></button>  
+             <button type="submit"  className="btn btn-success mt-4"> Book </button> 
+             <a className="btn btn-success mt-4" href="./Appointment">
+                View Appointments
+              </a>
           </div>
           
         </form>

@@ -262,3 +262,7 @@ p {
   text-align: center;
   font-size: medium;
 }
+
+a.btn.btn-success.mt-4 {
+  margin: auto;
+}
