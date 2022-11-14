@@ -42,9 +42,9 @@ function SpecialistCard() {
       <h6 class="card-title text-white">{item.doctor_name}</h6>
       </div><h6 class="card-text text-white">{item.specialty}</h6>
       <div className="social-icons my-2">
-                <a href="#" class="text-white"><FontAwesomeIcon icon={faFacebook} /></a>
-                <a href="#" class="text-white"><FontAwesomeIcon icon={faTwitter} /></a>
-                <a href="#" class="text-white"><FontAwesomeIcon icon={faInstagram}/></a>
+                <a href="./" class="text-white"><FontAwesomeIcon icon={faFacebook} /></a>
+                <a href="./" class="text-white"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="./" class="text-white"><FontAwesomeIcon icon={faInstagram}/></a>
     </div>
   </div>
   </div>
