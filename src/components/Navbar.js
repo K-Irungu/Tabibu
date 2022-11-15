@@ -4,7 +4,6 @@ import logo from "../img/logo.png";
 
 function Navbar() {
   return (
-    // <h1>navbar</h1>
     <div>
       <nav class=" navbar navbar-light bg-light">
         <div>
@@ -27,19 +26,19 @@ function Navbar() {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./SpecialistCard">
+              <a class="nav-link active" href="/SpecialistCard">
                 Our Specialists
               </a>
             </li>
 
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./Booking">
+            <a class="nav-link active" aria-current="page" href="/Booking">
                 Book
               </a>
             
             </li>
             <li class="nav-item">
-            <a class="nav-link active" href="./Appointment">
+            <a class="nav-link active" href="/Appointment">
                 View Appointments
               </a>
             </li>
