@@ -26,10 +26,10 @@ Via the Nav bar, the user may navigate to:
 - "View Appointments" - where one can view all the appointments made. Here, useful functionality has been included that enables the user to edit/update the patient name and/or doctor name for a selected appointment, as well as delete that appointment.
 
 # Technologies Used
-React Js
-CSS
-Bootstrap
-Ruby/Sinatra and Active Record for database setup
+- React Js
+- CSS
+- Bootstrap
+- Ruby/Sinatra and Active Record for database setup
 
 # Setup
 To run this project;
