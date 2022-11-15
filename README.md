@@ -1,6 +1,7 @@
 # Tabibu Wako
 
 #Project Name - Tabibu Wako
+
 #Project authors:
 
 1. Kevin Irungu
@@ -10,6 +11,7 @@
 4. Ronald Kubasu
 
 # Descritpion of Project:
+
 Tabibu Wako is an online appoinment booking application that addresses the need for covenience when making an appointment with a medical spceialist. The project comprises a React application that enables its user to:
  - create, read, update and delete appointments
  - view a list of all specialists available to book with. 
