@@ -23,7 +23,7 @@ Tabibu Wako's design and layout objectives have been centered on user friendline
 Via the Nav bar, the user may navigate to:
 - "Our Specialists" - where a list of all specialists available for bookings can be found, along with their respective specialties
 - "Book" - where one can create a new appointment with a selected specialist
-- "View Appointments" - where one can view all the appointments made. Here, useful functionality has been included that enables the user to edit/update the patient name and/or doctor name for a selected appointment.
+- "View Appointments" - where one can view all the appointments made. Here, useful functionality has been included that enables the user to edit/update the patient name and/or doctor name for a selected appointment, as well as delete that appointment.
 
 # Technologies Used
 React Js
