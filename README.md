@@ -1,8 +1,8 @@
 # Tabibu Wako
 
-#Project Name - Tabibu Wako
+# Project Name - Tabibu Wako
 
-#Project authors:
+# Project authors:
 
 1. Kevin Irungu
 2. Silvia Wachira
