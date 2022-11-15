@@ -16,7 +16,7 @@ Tabibu Wako is an online appoinment booking application that addresses the need 
  - create, read, update and delete appointments
  - view a list of all specialists available to book with. 
 
-This project's backend is developed using Ruby and Sinatra and facilitates the storage of all data related to Doctors, Patients and their Appointments, in a manner modeled after the real worl relationships that would exist between the three entities. 
+This project's backend is developed using Ruby and Sinatra and facilitates the storage of all data related to Doctors, Patients and their Appointments, in a manner modeled after the real world relationships that would exist between the three entities. 
 
 # How to use the web application
 Tabibu Wako's design and layout objectives have been centered on user friendliness and intuitive functionality. The home page comprises a call to action "Book Appointment" which is the essence of the solution provided here. 
