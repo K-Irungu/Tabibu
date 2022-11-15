@@ -1,6 +1,6 @@
-# Tabibu Wako
 
-# Project Name - Tabibu Wako
+# Project Name
+Tabibu Wako
 
 # Project authors:
 
