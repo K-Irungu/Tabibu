@@ -1,4 +1,4 @@
-# Tabibu Wako Frontend
+# Tabibu Healthcare Management
 
 ## Description
 A frontend application for Tabibu healthcare platform, providing a user interface for managing healthcare services.
@@ -13,10 +13,10 @@ A frontend application for Tabibu healthcare platform, providing a user interfac
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Kevin/Phase_3_Tabibu_Wako_Frontend.git
+git clone https://github.com/K-Irungu/Tabibu.git
 
 # Navigate to project directory
-cd Phase_3_Tabibu_Wako_Frontend
+cd Tabibu
 
 # Install dependencies
 npm install
