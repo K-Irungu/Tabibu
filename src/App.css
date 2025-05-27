@@ -626,10 +626,9 @@ p {
   font-weight: 300;
 }
 
-
- .actions{
-  width: 100%
- }
+.actions {
+  width: 100%;
+}
 
 .actions button {
   width: 100%;
@@ -649,7 +648,7 @@ p {
   background: linear-gradient(135deg, #506ed0 0%, #3c5ac7 100%);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   /* border: none; */
-} 
+}
 
 .modal-overlay {
   position: fixed;
@@ -788,7 +787,7 @@ p {
 }
 
 .submit-btn {
-  background-color: #506ed0;  /* Primary blue */
+  background-color: #506ed0; /* Primary blue */
   color: #fff;
   padding: 12px 26px;
   font-size: 1rem;
@@ -811,7 +810,7 @@ p {
 }
 
 .close-btn {
-  background-color: #f0f4f8;  /* Light gray */
+  background-color: #f0f4f8; /* Light gray */
   color: #506ed0;
   padding: 12px 26px;
   font-size: 1rem;
@@ -851,11 +850,7 @@ p {
   font-size: 18px;
 }
 
-
-.top{
+.top {
   display: flex;
   width: 100%;
 }
-
-
-
