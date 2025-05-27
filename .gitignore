@@ -5,6 +5,13 @@
 /.pnp
 .pnp.js
 
+/src/components/Booking.js
+/src/components/Details.js
+/src/components/Footer.js
+/src/components/Booking.js
+/src/components/Navbar.js
+/src/components/SecialistCard.js
+
 # testing
 /coverage
 

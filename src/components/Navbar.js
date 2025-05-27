@@ -1,52 +1,85 @@
 import React from "react";
-import logo from "../img/logo.png";
-// import {BrowserRouter as Link} from "react-router-dom"
+// import logo from "../img/logo.png";
 
 function Navbar() {
-  return (
-    <div>
-      <nav class=" navbar navbar-light bg-light">
-        <div>
-          <a class="navbar-brand" href="./Home">
-            <div className="App-header bg-light">
-              <img
-                src={logo}
-                class=" App-logo "
-                alt="logo"
-              />
-              <div class="h2 logo-text">Tabibu Wako</div>
-            </div>
-          </a>
-        </div>
-        <div class=" navbar-expand-xl navbar-dark bg-danger">
-          <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-              <a class="nav-link active" href="/">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="/SpecialistCard">
-                Our Specialists
-              </a>
-            </li>
+  // const [menuOpen, setMenuOpen] = useState(false);
 
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/Booking">
-                Book
-              </a>
-            
-            </li>
-            <li class="nav-item">
-            <a class="nav-link active" href="/Appointment">
-                View Appointments
-              </a>
-            </li>
-      
-          </ul>
-        </div>
-      </nav>
-    </div>
+  // const toggleMenu = () => setMenuOpen(!menuOpen);
+
+  return (
+    // <header className="navbar-container" role="banner">
+    //   <nav className="navbar" role="navigation" aria-label="Primary Navigation">
+    //     <div className="navbar-left">
+    //       <a className="brand-link" href="/" aria-label="Tabibu Wako homepage">
+    //         <div className="brand">
+    //           <img src={logo} className="logo" alt="Tabibu Wako Logo" />
+    //           <span className="brand-text">Tabibu Wako</span>
+    //         </div>
+    //       </a>
+    //     </div>
+
+    //     {/* Hamburger menu button for mobile */}
+    //     <button
+    //       className={`menu-toggle ${menuOpen ? "open" : ""}`}
+    //       aria-expanded={menuOpen}
+    //       aria-controls="primary-navigation"
+    //       onClick={toggleMenu}
+    //       aria-label="Toggle navigation menu"
+    //     >
+    //       <span className="hamburger"></span>
+    //     </button>
+
+    //     <div
+    //       className={`navbar-right ${menuOpen ? "active" : ""}`}
+    //       id="primary-navigation"
+    //     >
+    //       <ul className="nav-links" role="menubar">
+    //         <li role="none">
+    //           <a
+    //             href="/"
+    //             className="nav-link"
+    //             role="menuitem"
+    //             aria-current="page"
+    //             onClick={() => setMenuOpen(false)}
+    //           >
+    //             Home
+    //           </a>
+    //         </li>
+    //         <li role="none">
+    //           <a
+    //             href="/SpecialistCard"
+    //             className="nav-link"
+    //             role="menuitem"
+    //             onClick={() => setMenuOpen(false)}
+    //           >
+    //             Our Specialists
+    //           </a>
+    //         </li>
+    //         <li role="none">
+    //           <a
+    //             href="/Booking"
+    //             className="nav-link"
+    //             role="menuitem"
+    //             onClick={() => setMenuOpen(false)}
+    //           >
+    //             Book
+    //           </a>
+    //         </li>
+    //         <li role="none">
+    //           <a
+    //             href="/Appointment"
+    //             className="nav-link"
+    //             role="menuitem"
+    //             onClick={() => setMenuOpen(false)}
+    //           >
+    //             View Appointments
+    //           </a>
+    //         </li>
+    //       </ul>
+    //     </div>
+    //   </nav>
+    // </header>
+    <></>
   );
 }
 

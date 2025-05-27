@@ -1,38 +1,37 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import SpecialistCard from "./components/SpecialistCard";
-import Booking from "./components/Booking";
-import Details from "./components/Details";
-import Footer from "./components/Footer";
-import Appointment from "./components/Appointment";
-// import Book from "./components/Book";
+// import Navbar from "./components/Navbar";
+import Overview from "./components/Overview";
+import Login from "./components/Login";
+// import SpecialistCard from "./components/SpecialistCard";
+// import Booking from "./components/Booking";
+// import Details from "./components/Details";
+// import Footer from "./components/Footer";
+import Appointments from "./components/Appointments";
 
-// import Appointment from "./components/Appointment";
+
 
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 
 function App() {
   
   return (
-  <div>
-    <Navbar />
+  <div className="app">
+    {/* <Navbar /> */}
     <Router>
       
     <Routes>
-      <Route path="/" element= {<Home />}/>
-      <Route path="/Booking" element= {<Booking />}/>
-      <Route path="/Details" element= {<Details />}/>
-      <Route path="/Appointment" element= {<Appointment />}/>
-      <Route path="/SpecialistCard" element= {<SpecialistCard />}/>
+      <Route path="/" element= {<Login />}/>
+      <Route path="/overview" element= {<Overview />}/>
+      <Route path="/appointments" element= {<Appointments />}/>
+
       {/* <Route path="/Book" element= {<Book />}/> */}
     </Routes>
     
 
   </Router>
-  <Footer />
+  {/* <Footer /> */}
   
 
   </div>
